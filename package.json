@@ -1,0 +1,36 @@
+{
+  "version": "3.0.0",
+  "author": "Gonzalo Munoz",
+  "private": true,
+  "dependencies": {
+    "enamel": "^1.2.5",
+    "pebble-clay": "^1.0.4"
+  },
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "projectType": "native",
+    "uuid": "f1d0eb62-90de-4659-a000-b08cfb53b6e6",
+    "messageKeys": [
+      "bg_color",
+      "hour_color",
+      "minute_color",
+      "second_color",
+      "animation_duration",
+      "number_style"
+    ],
+    "enableMultiJS": true,
+    "displayName": "Blockslide 3",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "name": "Blockslide 3"
+}
