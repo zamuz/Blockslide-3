@@ -182,7 +182,8 @@ void schedule_animation(struct tm *now, bool intro) {
         };
         Animation *anim = animation_create();
         animation_set_delay(anim, intro ? 500 : 0);
-        animation_set_duration(anim, enamel_get_animation_duration());
+	int duration = enamel_get_animation_duration();
+        animation_set_duration(anim, intro ? (duration > 100 ? duration : 100) : duration);
         animation_set_implementation(anim, &animImpl);
         animation_set_curve(anim, AnimationCurveLinear);
 	if (intro) {

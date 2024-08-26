@@ -63,7 +63,7 @@
       "messageKey": "animation_duration",
       "defaultValue": 150,
       "label": "Animation duration",
-      "min": 100,
+      "min": 0,
       "max": 500,
       "step": 50
     }
