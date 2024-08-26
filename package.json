@@ -11,6 +11,7 @@
   ],
   "pebble": {
     "sdkVersion": "3",
+    "resources": {},
     "projectType": "native",
     "uuid": "f1d0eb62-90de-4659-a000-b08cfb53b6e6",
     "messageKeys": [
@@ -28,6 +29,13 @@
       "hiddenApp": false,
       "watchface": true
     },
+    "targetPlatforms": [
+      "chalk",
+      "basalt",
+      "diorite",
+      "aplite",
+      "emery"
+    ],
     "capabilities": [
       "configurable"
     ]
